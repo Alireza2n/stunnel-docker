@@ -6,7 +6,8 @@ Stunnel TLS wrapper for Docker using latest stunnel and OpenSSL
 
 ## What is included?
 * Uses latest alpine-linux.
-* Downloads and compiles latest stable verson of stunnel.
+* Uses OpenSSL 1.1.1a  20 Nov 2018 (latest version available from alpine-linux).
+* Downloads and compiles latest stable or beta version of stunnel.
 
 ## Why did I create this image?
 I wanted an stunnel imgae to work on all different linux versions and distributions while having access to latest
