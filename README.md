@@ -1,4 +1,4 @@
-# stunnel-docker image
+# Stunnel docker image
 Stunnel TLS wrapper for Docker using latest stunnel and OpenSSL
 
 ## What is stunnel?
@@ -25,5 +25,5 @@ $ docker pull alireza2n/stunnel:latest
 
 3. Run the container:
 ```
-$ docker run -v ~/home/alireza/stunnel-docker/conf:/stunnel/conf stunnel:latest
+$ docker run -v ~/home/alireza/stunnel-docker/conf:/stunnel/conf -p <port_on_host>:<port_on_container> stunnel:latest
 ```
