@@ -12,6 +12,10 @@ Stunnel TLS wrapper for Docker using latest stunnel and OpenSSL
 I wanted an stunnel imgae to work on all different linux versions and distributions while having access to latest
 developments including TLSv1.3 in both stunnel and openSSL.
 
+## Supported tags and respective Dockerfile links:
+* [latest (stunnel 5.50, OpenSSL 1.1.1a)](https://github.com/Alireza2n/stunnel-docker/blob/master/Dockerfile)
+* [beta (stunnel 5.51b1, OpenSSL 1.1.1a)](https://github.com/Alireza2n/stunnel-docker/blob/beta/Dockerfile)
+
 ## How to use?
 1. Pull stunnel image:
 ```
