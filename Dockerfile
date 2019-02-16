@@ -5,6 +5,6 @@ ENV version 5.51b1
 ADD http://www.usenix.org.uk/mirrors/stunnel/beta/stunnel-${version}.tar.gz /stunnel/stunnel-${version}.tar.gz
 WORKDIR /stunnel
 RUN tar -xvf /stunnel/stunnel-${version}.tar.gz
-WORKDIR /stunnel/stunnel-${version}
+WORKDIR /stunnel/stunnel-5.51
 RUN ./configure && make && make install
 ENTRYPOINT ["/usr/local/bin/stunnel", "/stunnel/conf/stunnel.conf"]
