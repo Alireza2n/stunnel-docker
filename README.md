@@ -25,5 +25,5 @@ $ docker pull alireza2n/stunnel:latest
 
 3. Run the container:
 ```
-$ docker run -v ~/home/alireza/stunnel-docker/conf:/stunnel/conf -p <port_on_host>:<port_on_container> alireza2n/stunnel:latest
+$ docker run -v /home/alireza/stunnel-docker/conf:/stunnel/conf -p <port_on_host>:<port_on_container> alireza2n/stunnel:latest
 ```
